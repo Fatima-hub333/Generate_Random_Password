@@ -4,37 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="index.css">
   <title> Random Password Generator</title>
 </head>
 <body>
-  <div class="container">
-    <div class="main-div">
-      <div class="text">
-        <h4>Generate a <br> Random Password</h4>
-        <p>Never use an insecure password again.</p>
-      </div>
-      <button type="button"> <img src="images/Icon.png" alt="icon"> Generate passwords</button>
-      <hr>
-      <div class="span-tabs">
-        <span>Password</span>
-        <span>Password</span>
-      </div>
-      <div class="span-tabs">
-        <span>Password</span>
-        <span>Password</span>
-      </div>
-
-      
-    </div>
+<main class="flex">
+  <div class="upperSection">
+    <h1 class="title"> Generate a <br> <span class="title-green">Random Password</span></h1>
+    <h2 class="supportingTitle">Never use an insecure password again.</h2>
+    <button class="btn" onclick="getGeneratePasswords()"> <i class="fa fa-flash"></i>Generate Passwords</button>
   </div>
+  <hr>
 
+  <div class="downSection">
+    <div class="generatedPassword" id="password1-el"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+    <div class="generatedPassword" id="password2-el"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+    <div class="generatedPassword" id="password3-el"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+    <div class="generatedPassword" id="password4-el"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+  </div>
+</main>
 
-
-
-
-
-
+<!-- Footer -->
+<footer>
+<div class="attribution">
+  <span>Project by <a href="https://scrimba.com/learn/learnjavascript/" target="_blank">Scrimba</a>.<br>
+  Coded by <a href="https://github.com/Fatima-hub333/Generate_Random_Password.git" target="_blank">Fatima Zahir</a>.</span>
+  </span> 
+</div>
+</footer>
 
 
 
