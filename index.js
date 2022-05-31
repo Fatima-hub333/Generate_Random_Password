@@ -1,9 +1,9 @@
 // Declares and store possible characters in a variable called chars
-var chars =
+let chars =
   "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 // Declares a variable called passwordLength and assign its value to 12
-let passwordLength = 12;
+let passwordLength = 8;
 
 // Stores the password1-el paragraph in a variable called password1EL
 let password1El = document.getElementById("password1-el");
