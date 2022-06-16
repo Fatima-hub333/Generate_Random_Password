@@ -27,12 +27,9 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](./screenshots/screenshot.png)
+![screenshot](images/livedemo.png)
 
-### Links
-
-- Solution URL: [@GitHub](https://github.com/xdelmo/random-password-generator)
-- Live Site URL: [@GitHub](https://htmlpreview.github.io/?https://github.com/xdelmo/random-password-generator/blob/master/index.html)
+## [Live Demo](https://fatima-hub333.github.io/Generate_Random_Password/)
 
 ## My process
 
